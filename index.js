@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://auth-front1.netlify.app",
+    origin: "https://auth-frontend-flame.vercel.app/",
     methods: ["GET", "POST"],
     credentials: true,
   })
